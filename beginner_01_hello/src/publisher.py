@@ -11,7 +11,7 @@ class MinimalPublisher(Node):
 
     def publish_msg(self):
         msg = String()
-        msg.data = 'Hello ROS2!'
+        msg.data = 'Hello Anass RAK NADIIII!'
         self.pub.publish(msg)
         self.get_logger().info(f'Publishing: {msg.data}')
 
